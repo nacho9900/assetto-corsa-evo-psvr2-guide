@@ -1,0 +1,14 @@
+# Keep personal troubleshooting artifacts out of the public repository.
+*.dmp
+*.log
+log-*.txt
+*.videosettings
+*.keyboardinputconfiguration
+*.inputdeviceconfiguration
+*.camerasettings
+*.carcamerausersettings
+*.antes
+*.exe
+*.dll
+__pycache__/
+backups/

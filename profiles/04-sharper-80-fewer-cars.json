@@ -1,0 +1,162 @@
+{
+  "display": {
+    "window_width": 1920,
+    "window_height": 1080,
+    "child_width": 1920,
+    "child_height": 1080,
+    "frame_rate_limit": {
+      "gameplay_frame_rate_limit": 120,
+      "occluded_frame_rate_limit": 120,
+      "menu_frame_rate_limit": true
+    },
+    "triple_screen": {
+      "width": 520.0,
+      "distance": 640.0,
+      "screen_angle": 45.0,
+      "bezel": 20.0
+    },
+    "render_width": 1920,
+    "render_height": 1080,
+    "output_width": 1920,
+    "output_height": 1080,
+    "v_sync": {
+      "value": 1,
+      "label": "Off"
+    }
+  },
+  "graphics": {
+    "msaa": {
+      "value": 0,
+      "label": "MSAA_2x"
+    },
+    "anisotropicFiltering": {
+      "anisotropicFilteringQuality": {
+        "value": 2,
+        "label": "AnisotropicFilteringQuality_Medium"
+      },
+      "customSettings": {
+        "mainAnisotropicFiltering": 8,
+        "mainLowAnisotropicFiltering": 4,
+        "cubemapMirrorAnisotropicFiltering": 1
+      }
+    },
+    "carReflection": {
+      "carReflectionQuality": {
+        "value": 0,
+        "label": "CarReflectionQuality_Low"
+      },
+      "carReflectionCustomSettings": {}
+    },
+    "levelOfDetail": {
+      "levelOfDetail": {
+        "value": 1,
+        "label": "LevelOfDetailQuality_Medium"
+      },
+      "levelOfDetailCustomSettings": {
+        "mainLodDistanceScale": 1.0,
+        "mirrorLodDistanceScale": 1.0,
+        "cubemapLodDistanceScale": 1.0,
+        "shadowLodDistanceScale": 1.0
+      }
+    },
+    "clouds": {
+      "cloudsQuality": {
+        "value": 0,
+        "label": "CloudsQuality_Low"
+      },
+      "cloudsCustomSettings": {
+        "resolution": 1024,
+        "renderingTimeslicedOverFramesNumber": 16
+      }
+    },
+    "antialising": {
+      "filmicAntialiasing": {},
+      "fxaa": {}
+    },
+    "sharpening": {},
+    "shadow": {
+      "shadowQuality": {
+        "value": 1,
+        "label": "ShadowQuality_Low"
+      },
+      "screenSpaceShadowQuality": {
+        "value": 1,
+        "label": "ScreenSpaceShadowQuality_HalfRes"
+      }
+    },
+    "motionBlur": {
+      "quality": {
+        "value": 4,
+        "label": "MotionBlurQuality_Off"
+      }
+    },
+    "mirror": {
+      "mirror_mode": {
+        "value": 1,
+        "label": "Mirror_Single"
+      },
+      "alternate_rendering": true,
+      "mirror_resolution": {
+        "value": 0,
+        "label": "MirrorResolution_Low"
+      },
+      "mirror_view_distance": {
+        "value": 1,
+        "label": "MirrorViewDistance_Medium"
+      },
+      "multi_mode_vr": {
+        "value": 1,
+        "label": "Multi_VR"
+      }
+    },
+    "grass": {
+      "value": 0,
+      "label": "GrassDensity_Low"
+    },
+    "vehicleLevelOfDetail": {
+      "value": 0,
+      "label": "VehicleLevelOfDetailQuality_Low"
+    },
+    "ambientOcclusion": {
+      "value": 0,
+      "label": "AmbientOcclusionQuality_Low"
+    },
+    "depthOfField": {
+      "value": 4,
+      "label": "DepthOfFieldQuality_Off"
+    },
+    "overallGraphics": "videoOptionCustom",
+    "post_processing_preset": "Natural 7",
+    "is_dlss_available": true,
+    "texturePoolSize": {
+      "value": 1,
+      "label": "TexturePoolSize_Medium"
+    },
+    "volumetricsQuality": {
+      "value": 0,
+      "label": "VolumetricsQuality_Low"
+    },
+    "terrain": {},
+    "car_visibility": {
+      "max_ahead_car": 6,
+      "max_behind_car": 4
+    },
+    "particles": {
+      "quality": {
+        "value": 0,
+        "label": "ParticlesQuality_Low"
+      }
+    },
+    "upscaling": {},
+    "is_fsr_available": true
+  },
+  "vr": {
+    "pixel_density": 80.0,
+    "foveated_rendering": {
+      "value": 0,
+      "label": "FoveatedRendering_Medium"
+    },
+    "world_scale": 1.0,
+    "prefer_framerate_over_latency": true
+  }
+}
